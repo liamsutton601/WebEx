@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webex/embedded-app-sdk": "^2.1.8",
+    "d3": "^7.9.0",
+    "d3-node": "^0.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodeplotlib": "^0.7.7",
+    "plotly.js-dist-min": "^2.34.0",
+    "pug": "^3.0.3",
+    "socket.io": "^4.7.5",
+    "webex": "^3.3.1"
+  }
+}
