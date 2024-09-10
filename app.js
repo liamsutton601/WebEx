@@ -31,10 +31,10 @@ global.window.setTimeout = setTimeout;
 // global.Webex = {};
 
 const Webex = require('webex');
-
+// Bearer Access Token on killerwat79@gmail.com From https://developer.webex.com/docs/getting-started
 webex = (window.webex = Webex.init({
   credentials: {
-    access_token: "Y2VlZjZhZTEtNWNjOS00MWQ5LWJkNDMtMmVhMDc0MjAxMTBjNmUyMmQxYTgtYTIy_P0A1_a04d7df2-886e-41da-ba2e-33e948411748"
+    access_token: "YTk0MjQ1ODItZjY2My00NjhmLWE1ZTgtZDAyY2U4OWUxNWY5MThjYTVhNDAtMzI0_P0A1_a04d7df2-886e-41da-ba2e-33e948411748" 
   }
 }));
 
